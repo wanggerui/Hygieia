@@ -1,58 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="096f3b89-a96e-4ad3-8a83-71b23025fe5d" name="Default Changelist" comment="提交基础板-Hygieia">
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.github/CODEOWNERS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.github/stale.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.github/workflows/maven-pr-checks.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.github/workflows/maven-snapshot-release.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.sonarcloud.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/Dockerfile.build" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/MAINTAINERS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/docker/properties-builder.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/changes/changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/.travis.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/checkstyle-suppressions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/deploy-snapshot.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/keys.gpg.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/pmd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/devops/release.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/controller/GitHubController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/controller/PingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/GitHubParsed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/GitHubRateLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/MergeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/service/GitHubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/service/GitHubServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/site/site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/site/xdoc/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/test/java/com/capitalone/dashboard/collector/DefaultGitHubClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/test/java/com/capitalone/dashboard/collector/GitHubCollectorTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/test/java/com/capitalone/dashboard/model/GitHubRepoTests.java" afterDir="false" />
+    <list default="true" id="096f3b89-a96e-4ad3-8a83-71b23025fe5d" name="Default Changelist" comment="添加github的collector层-已启动成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/workflows/maven-pr-checks.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/workflows/maven-snapshot-release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.github/workflows/maven.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.sonarcloud.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/Dockerfile.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/MAINTAINERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/docker/properties-builder.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/changes/changes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/.travis.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/deploy-snapshot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/keys.gpg.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/pmd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/devops/release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/model/GitHubParsed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/site/xdoc/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/test/java/com/capitalone/dashboard/collector/GitHubCollectorTaskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hygieia-scm-github-collector/src/test/java/com/capitalone/dashboard/model/GitHubRepoTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,7 +161,7 @@
       <workItem from="1605573181675" duration="790000" />
       <workItem from="1605574376973" duration="16646000" />
       <workItem from="1605601062938" duration="1005000" />
-      <workItem from="1605670185403" duration="3845000" />
+      <workItem from="1605670185403" duration="11022000" />
     </task>
     <task id="LOCAL-00001" summary="提交基础板-Hygieia">
       <created>1605674984075</created>
@@ -176,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605674984075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加github的collector层-已启动成功">
+      <created>1605680425395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605680425395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交基础板-Hygieia" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交基础板-Hygieia" />
+    <MESSAGE value="添加github的collector层-已启动成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加github的collector层-已启动成功" />
   </component>
 </project>

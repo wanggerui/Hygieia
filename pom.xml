@@ -204,7 +204,6 @@
         <module>UI-tests</module>
         <module>api</module>
         <module>hygieia-core</module>
-        <module>hygieia-scm-github-collector</module>
         <module>hygieia-scm-github-graphql-collector</module>
       </modules>
       <build>
@@ -230,7 +229,6 @@
         <module>UI-tests</module>
         <module>api</module>
         <module>hygieia-core</module>
-        <module>hygieia-scm-github-collector</module>
         <module>hygieia-scm-github-graphql-collector</module>
  </modules>
       <build>
