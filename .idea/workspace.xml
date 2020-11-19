@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="096f3b89-a96e-4ad3-8a83-71b23025fe5d" name="Default Changelist" comment="" />
+    <list default="true" id="096f3b89-a96e-4ad3-8a83-71b23025fe5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,7 @@
       <workItem from="1605574376973" duration="16646000" />
       <workItem from="1605601062938" duration="1005000" />
       <workItem from="1605670185403" duration="14124000" />
-      <workItem from="1605746980922" duration="861000" />
+      <workItem from="1605746980922" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="提交基础板-Hygieia">
       <created>1605674984075</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605747643487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试UI展示数据是否正确2">
+      <created>1605748104878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605748104878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +220,7 @@
     <MESSAGE value="提交基础板-Hygieia" />
     <MESSAGE value="添加github的collector层-已启动成功" />
     <MESSAGE value="测试UI展示数据是否正确" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试UI展示数据是否正确" />
+    <MESSAGE value="测试UI展示数据是否正确2" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试UI展示数据是否正确2" />
   </component>
 </project>
