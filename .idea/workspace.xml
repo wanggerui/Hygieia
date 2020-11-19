@@ -59,14 +59,14 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hygieia-scm-github-graphql-collector/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hygieia-pro6/Hygieia" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -129,7 +129,8 @@
       <workItem from="1605574376973" duration="16646000" />
       <workItem from="1605601062938" duration="1005000" />
       <workItem from="1605670185403" duration="14124000" />
-      <workItem from="1605746980922" duration="6088000" />
+      <workItem from="1605746980922" duration="10878000" />
+      <workItem from="1605772702039" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="提交基础板-Hygieia">
       <created>1605674984075</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605751308089</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="测试UI展示数据是否正确5">
+      <created>1605753796687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605753796687</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +245,7 @@
     <MESSAGE value="测试UI展示数据是否正确2" />
     <MESSAGE value="测试UI展示数据是否正确3" />
     <MESSAGE value="测试UI展示数据是否正确4" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试UI展示数据是否正确4" />
+    <MESSAGE value="测试UI展示数据是否正确5" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试UI展示数据是否正确5" />
   </component>
 </project>
